@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1669952ABE8446001776B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1669942ABE8446001776B2 /* AppDelegate.swift */; };
+		0F1669972ABE8446001776B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1669962ABE8446001776B2 /* SceneDelegate.swift */; };
+		0F1669992ABE8446001776B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1669982ABE8446001776B2 /* ViewController.swift */; };
+		0F16699C2ABE8446001776B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F16699A2ABE8446001776B2 /* Main.storyboard */; };
+		0F16699E2ABE8447001776B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F16699D2ABE8447001776B2 /* Assets.xcassets */; };
+		0F1669A12ABE8447001776B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F16699F2ABE8447001776B2 /* LaunchScreen.storyboard */; };
+		0F8CE2012ABE772E00E98D93 /* v10App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CE2002ABE772E00E98D93 /* v10App.swift */; };
+		0F8CE2032ABE772E00E98D93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CE2022ABE772E00E98D93 /* ContentView.swift */; };
+		0F8CE2052ABE772F00E98D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CE2042ABE772F00E98D93 /* Assets.xcassets */; };
+		0F8CE2082ABE772F00E98D93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CE2072ABE772F00E98D93 /* Preview Assets.xcassets */; };
+		0F8CE20F2ABE777800E98D93 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CE20E2ABE777800E98D93 /* MetronomeView.swift */; };
+		0F8CE2112ABE77AF00E98D93 /* chic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0F8CE2102ABE77AF00E98D93 /* chic.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F1669922ABE8446001776B2 /* hapticmetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hapticmetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1669942ABE8446001776B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F1669962ABE8446001776B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0F1669982ABE8446001776B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F16699B2ABE8446001776B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F16699D2ABE8447001776B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F1669A02ABE8447001776B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F1669A22ABE8447001776B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8CE1FD2ABE772E00E98D93 /* v10 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "v10 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8CE2002ABE772E00E98D93 /* v10App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v10App.swift; sourceTree = "<group>"; };
+		0F8CE2022ABE772E00E98D93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F8CE2042ABE772F00E98D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F8CE2072ABE772F00E98D93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F8CE20E2ABE777800E98D93 /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
+		0F8CE2102ABE77AF00E98D93 /* chic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = chic.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F16698F2ABE8446001776B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F8CE1FA2ABE772E00E98D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1669932ABE8446001776B2 /* hapticmetronome */ = {
+			isa = PBXGroup;
+			children = (
+				0F1669942ABE8446001776B2 /* AppDelegate.swift */,
+				0F1669962ABE8446001776B2 /* SceneDelegate.swift */,
+				0F1669982ABE8446001776B2 /* ViewController.swift */,
+				0F16699A2ABE8446001776B2 /* Main.storyboard */,
+				0F16699D2ABE8447001776B2 /* Assets.xcassets */,
+				0F16699F2ABE8447001776B2 /* LaunchScreen.storyboard */,
+				0F1669A22ABE8447001776B2 /* Info.plist */,
+			);
+			path = hapticmetronome;
+			sourceTree = "<group>";
+		};
+		0F8CE1F42ABE772E00E98D93 = {
+			isa = PBXGroup;
+			children = (
+				0F8CE2102ABE77AF00E98D93 /* chic.m4a */,
+				0F8CE1FF2ABE772E00E98D93 /* v10 Watch App */,
+				0F1669932ABE8446001776B2 /* hapticmetronome */,
+				0F8CE1FE2ABE772E00E98D93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F8CE1FE2ABE772E00E98D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F8CE1FD2ABE772E00E98D93 /* v10 Watch App.app */,
+				0F1669922ABE8446001776B2 /* hapticmetronome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F8CE1FF2ABE772E00E98D93 /* v10 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0F8CE2002ABE772E00E98D93 /* v10App.swift */,
+				0F8CE2022ABE772E00E98D93 /* ContentView.swift */,
+				0F8CE20E2ABE777800E98D93 /* MetronomeView.swift */,
+				0F8CE2042ABE772F00E98D93 /* Assets.xcassets */,
+				0F8CE2062ABE772F00E98D93 /* Preview Content */,
+			);
+			path = "v10 Watch App";
+			sourceTree = "<group>";
+		};
+		0F8CE2062ABE772F00E98D93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F8CE2072ABE772F00E98D93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1669912ABE8446001776B2 /* hapticmetronome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1669A32ABE8447001776B2 /* Build configuration list for PBXNativeTarget "hapticmetronome" */;
+			buildPhases = (
+				0F16698E2ABE8446001776B2 /* Sources */,
+				0F16698F2ABE8446001776B2 /* Frameworks */,
+				0F1669902ABE8446001776B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hapticmetronome;
+			productName = hapticmetronome;
+			productReference = 0F1669922ABE8446001776B2 /* hapticmetronome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F8CE1FC2ABE772E00E98D93 /* v10 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8CE20B2ABE772F00E98D93 /* Build configuration list for PBXNativeTarget "v10 Watch App" */;
+			buildPhases = (
+				0F8CE1F92ABE772E00E98D93 /* Sources */,
+				0F8CE1FA2ABE772E00E98D93 /* Frameworks */,
+				0F8CE1FB2ABE772E00E98D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "v10 Watch App";
+			productName = "v10 Watch App";
+			productReference = 0F8CE1FD2ABE772E00E98D93 /* v10 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F8CE1F52ABE772E00E98D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0F1669912ABE8446001776B2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0F8CE1FC2ABE772E00E98D93 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0F8CE1F82ABE772E00E98D93 /* Build configuration list for PBXProject "v10" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F8CE1F42ABE772E00E98D93;
+			productRefGroup = 0F8CE1FE2ABE772E00E98D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F8CE1FC2ABE772E00E98D93 /* v10 Watch App */,
+				0F1669912ABE8446001776B2 /* hapticmetronome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1669902ABE8446001776B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1669A12ABE8447001776B2 /* LaunchScreen.storyboard in Resources */,
+				0F16699E2ABE8447001776B2 /* Assets.xcassets in Resources */,
+				0F16699C2ABE8446001776B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F8CE1FB2ABE772E00E98D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8CE2082ABE772F00E98D93 /* Preview Assets.xcassets in Resources */,
+				0F8CE2112ABE77AF00E98D93 /* chic.m4a in Resources */,
+				0F8CE2052ABE772F00E98D93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F16698E2ABE8446001776B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1669992ABE8446001776B2 /* ViewController.swift in Sources */,
+				0F1669952ABE8446001776B2 /* AppDelegate.swift in Sources */,
+				0F1669972ABE8446001776B2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F8CE1F92ABE772E00E98D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8CE20F2ABE777800E98D93 /* MetronomeView.swift in Sources */,
+				0F8CE2032ABE772E00E98D93 /* ContentView.swift in Sources */,
+				0F8CE2012ABE772E00E98D93 /* v10App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F16699A2ABE8446001776B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F16699B2ABE8446001776B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F16699F2ABE8447001776B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1669A02ABE8447001776B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F1669A42ABE8447001776B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24GXVHN6LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hapticmetronome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticmetronome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F1669A52ABE8447001776B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24GXVHN6LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hapticmetronome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticmetronome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F8CE2092ABE772F00E98D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Debug;
+		};
+		0F8CE20A2ABE772F00E98D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Release;
+		};
+		0F8CE20C2ABE772F00E98D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"v10 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 24GXVHN6LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = v10;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = hapticmetronome;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticmetronome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Debug;
+		};
+		0F8CE20D2ABE772F00E98D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"v10 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 24GXVHN6LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = v10;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = hapticmetronome;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hapticmetronome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1669A32ABE8447001776B2 /* Build configuration list for PBXNativeTarget "hapticmetronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1669A42ABE8447001776B2 /* Debug */,
+				0F1669A52ABE8447001776B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F8CE1F82ABE772E00E98D93 /* Build configuration list for PBXProject "v10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8CE2092ABE772F00E98D93 /* Debug */,
+				0F8CE20A2ABE772F00E98D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F8CE20B2ABE772F00E98D93 /* Build configuration list for PBXNativeTarget "v10 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8CE20C2ABE772F00E98D93 /* Debug */,
+				0F8CE20D2ABE772F00E98D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F8CE1F52ABE772E00E98D93 /* Project object */;
+}
